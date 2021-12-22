@@ -18,3 +18,8 @@ h1 {
     text-align: center;
     color: blue;
 }
+.pictures {
+    width: 300px;
+    height: 200px;
+    border-style: double;
+}
