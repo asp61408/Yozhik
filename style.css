@@ -4,6 +4,10 @@
     height: 150px;
 }
 .news {
-            color: red;
-            font-size: 50px;
-        }
+    color: red;
+    font-size: 50px;
+}
+
+.menu {
+    color: blueviolet;
+}
