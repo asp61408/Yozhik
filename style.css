@@ -5,11 +5,16 @@
 }
 .news {
     color: red;
-    font-size: 25px;
+    font-size: 35px;
     font-style: italic;
+    text-align: center;
 }
 
 .menu {
     color: blueviolet;
     font-style: oblique;
+}
+h1 {
+    text-align: center;
+    color: blue;
 }
