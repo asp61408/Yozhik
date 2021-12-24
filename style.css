@@ -20,24 +20,30 @@
 }
 h1 {
     text-align: center;
-    color: green;
+    
 }
 .pictures {
     width: 300px;
     height: 200px;
     margin: 10px 0 10px 400px;
 }
-@keyframes color-change {
+@keyframes red-blue {
     0% {
-        color: red;
+        color: cadetblue;
+    }
+    25% {
+        color: brown;
     }
     50% {
         color: blue;
     }
+    75% {
+        color: blueviolet;
+    }
     100% {
         color: red;
     }
-    .animation {
-        animation: color-change 5s infinite;
-    }
+}
+.animation-text {
+    animation: red-blue 10s infinite;
 }
